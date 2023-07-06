@@ -1,9 +1,9 @@
-import Link from "next/link";
-import React from "react";
+import { Link } from 'lucide-react'
+import React from 'react'
 
-const Navbar = () => {
+const DashboardNav = () => {
   return (
-    <nav className="py-4 shadow-sm bg-white h-[109px] w-full">
+    <nav className="py-4 shadow-sm bg-[#22506C] h-[1439.25px] w-full">
       <div className="container flex items-center justify-between space-x-5">
         <Link href="/">
           <h1 className="font-poppins text-lg text-secondary-600">
@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default DashboardNav

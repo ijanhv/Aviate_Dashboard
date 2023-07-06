@@ -14,7 +14,8 @@ export default async function UserLayout({ children }: IProps) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
+      <Navbar />
+
         {children}
       </body>
     </html>

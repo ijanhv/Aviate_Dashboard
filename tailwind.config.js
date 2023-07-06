@@ -14,7 +14,9 @@ module.exports = {
     extend: {
       fontFamily: {
         noto: ['Noto Sans', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
+
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
