@@ -1,4 +1,5 @@
 import DashboardNav from "../components/DashboardNav";
+import DashboardSidebar from "../components/DashboardSidebar";
 import Navbar from "../components/Navbar";
 import "./../globals.css";
 
@@ -14,11 +15,13 @@ interface IProps {
 export default async function UserLayout({ children }: IProps) {
   return (
     <html lang="en">
-      <body>
+    <body className="">
       <DashboardNav />
-
-        {children}
-      </body>
-    </html>
+      <div className="flex">
+        <DashboardSidebar />
+        <main className="w-screen h-screen bg-slate-100 overflow-x-hidden ">{children}</main>
+      </div>
+    </body>
+  </html>
   );
 }
