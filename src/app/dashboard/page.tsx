@@ -12,7 +12,7 @@ export default function Home() {
         <div className="col-span-12 md:col-span-8 ">
           <div className="flex justify-between">
             <h1 className="text-[27px] font-poppins mt-4 text-secondary-600">
-              Dasboard
+              Dashboard
             </h1>
             <div className="flex flex-col items-center space-x-4">
               <p className="font-poppins text-[17px]">Job Search Status</p>
