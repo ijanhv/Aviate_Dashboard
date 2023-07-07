@@ -34,15 +34,15 @@ export default function Home() {
             <BsThreeDotsVertical />
           </div>
           <div className="justify-between flex items-center">
-            <ul className="flex gap-3">
-              <li className="text-[12px] font-poppins text-black opacity-70">
-                UX Designer
+            <ul className="flex gap-3 ">
+              <li className="text-[12px] items-center flex font-poppins text-black opacity-70">
+                <BsDot className="text-[#043CA7] text-2xl" />UX Designer
               </li>
-              <li className="text-[12px] font-poppins text-black opacity-70">
-                50K - 75K
+              <li className="text-[12px] items-center flex font-poppins text-black opacity-70">
+              <BsDot className="text-[#043CA7] text-2xl" />50K - 75K
               </li>
-              <li className="text-[12px] font-poppins text-black opacity-70">
-                Mumbai, Bengaluru, Pune
+              <li className="text-[12px] items-center flex font-poppins text-black opacity-70">
+              <BsDot className="text-[#043CA7] text-2xl" />Mumbai, Bengaluru, Pune
               </li>
             </ul>
             <p className="text-[15px] font-poppins text-[#043CA7]">See all</p>

@@ -10,8 +10,8 @@ import User from "../assets/user.png";
 
 const DashboardNav = () => {
   return (
-    <nav className="py-1 shadow-sm bg-[#22506C] h-[80px] min-w-full items-center z-50">
-      <div className="container flex items-center justify-between space-x-5">
+    <nav className="py-1 shadow-sm bg-[#22506C] h-[80px] min-w-full items-center z-50 relative">
+    <div className="container flex items-center justify-between space-x-5 relative z-50">
         <Link href="/">
           <Image
             src={AviateLogo}

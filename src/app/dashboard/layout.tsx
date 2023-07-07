@@ -17,7 +17,7 @@ export default async function UserLayout({ children }: IProps) {
     <html lang="en">
     <body className="">
       <DashboardNav />
-      <div className="flex">
+      <div className="flex z-10  ">
         <DashboardSidebar />
         <main className="w-screen h-screen bg-slate-100 overflow-x-hidden ">{children}</main>
       </div>
